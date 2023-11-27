@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Login Form</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f4f4f4;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			margin: 0;
+		}
+
+		form {
+			background-color: #ffffff;
+			border-radius: 8px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			padding: 20px;
+			width: 300px;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 8px;
+			color: #333;
+		}
+
+		input[type="email"],
+		input[type="password"] {
+			width: 100%;
+			padding: 12px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+
+		button[type="submit"],
+		button[type="reset"] {
+			background-color: #333;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			cursor: pointer;
+			margin-top: 16px;
+			border-radius: 4px;
+		}
+
+		button[type="submit"]:hover,
+		button[type="reset"]:hover {
+			background-color: #555;
+		}
+	</style>
+</head>
+
+<body>
+	<form action="l">
+		<label for="email">Enter Email:</label>
+		<input name="email" type="email">
+
+		<label for="pass">Enter Password:</label>
+		<input name="pass" type="password">
+
+		<button type="submit">Submit</button>
+		<button type="reset">Reset</button><br><br>
+		<center><a href="insert.html">Do not have a account click here to create account</a></center>
+
+
+	</form>
+
+</body>
+
+</html>
